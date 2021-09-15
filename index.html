@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <p>
+      Вёрстка — монтаж полос оригинал-макета из составных элементов: набранного
+      текста, заголовков, таблиц, иллюстраций, украшений и пр. Также результат
+      этого процесса, то есть готовые полосы. Эта операция включает в себя
+      формирование книжных, журнальных или газетных полос определенного формата.
+    </p>
+    <button class="button banner__button" type="button" data-modal-open>
+      Детали
+    </button>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal__btn-close" data-modal-close>X</button>
+        <div class="modal__author-img"></div>
+        <div class="modal__position">
+          <div class="modal__poster-container">
+            <img
+              class="modal__poster-img visually-hidden"
+              src="./images/pic.png"
+              alt=""
+              width="233"
+            />
+          </div>
+          <div class="modal__info">
+            <ul class="list modal__list">
+              <li>
+                <span class="modal__info-title">Info</span>
+                <p class="modal__info-text">
+                  Atlas Weekend is the largest music festival in Ukraine.More
+                  than 200 artists will create a proper music festival
+                  atmosphere on 10 stages!
+                </p>
+              </li>
+              <li>
+                <span class="modal__info-title">When</span>
+                <p class="modal__info-text"></p>
+              </li>
+              <li>
+                <span class="modal__info-title">Where</span>
+                <p class="modal__info-text"></p>
+              </li>
+              <li>
+                <span class="modal__info-title">Who</span>
+                <p class="modal__info-text"></p>
+              </li>
+              <li>
+                <span class="modal__info-title">Prices</span>
+                <p class="modal__info-text"></p>
+                <button class="modal__btn modal__btn-buy">Buy tickets</button>
+                <p class="modal__info-text"></p>
+                <button class="modal__btn modal__btn-buy">Buy tickets</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="modal__btn modal__btn-more">
+          More from this author
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

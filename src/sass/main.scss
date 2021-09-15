@@ -1,0 +1,15 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+@import './base/common';
+@import './base/root-colors';
+
+@import './header';
+@import './search-bar';
+@import './set-of-cards';
+@import './footer';
+@import './modal';
+@import './_top-part';
+@import './_bottom-part';

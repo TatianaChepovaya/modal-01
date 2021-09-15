@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EVENT-BOOSTER</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://uicdn.toast.com/tui.pagination/latest/tui-pagination.css"
+    />
+  </head>
+  <body>
+    <div class="top-part">
+      <div class="top-part_section">
+        <div class="container">
+          <!-- //секции хедер и герой -->
+          <include src="./partials/header.html"></include>
+          <include src="./partials/search-bar.html"></include>
+        </div>
+      </div>
+    </div>
+    <include src="./partials/pagination.html"></include>
+    <!-- <div class="bottom-part">
+      <div class="bottom-part_section"> -->
+    <div class="container">
+      <!-- // все остальные секции -->
+      <!-- <div class="container__bg-decoration">
+            <svg class="first-circle" width="216" height="216">
+              <circle r="108" cx="108" cy="108" fill="#0e0e0e" stroke="#212121" stroke-width="1" />
+              <circle r="68" cx="108" cy="108" fill="#ffff" stroke="#fffff" stroke-width="1" />
+            </svg>
+          </div> -->
+
+      <include src="./partials/set-of-cards.html"></include>
+      <include src="./partials/footer.html"></include>
+      <include src="./partials/modal.html"></include>
+    </div>
+    <!-- </div> -->
+
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <script src="./index.js"></script>
+  </body>
+</html>
