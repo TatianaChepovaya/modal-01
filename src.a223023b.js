@@ -88,4 +88,4 @@ module.exports=require("./lib/axios");
 },{"tui-pagination":"jPMh","./renderingСardSet":"bpxh","./events-api":"g3kF","../templates/set-of-cards.hbs":"CK9E","axios":"dZBD","@pnotify/core/dist/BrightTheme.css":"xSVp","@pnotify/core/dist/PNotify.css":"xSVp","@pnotify/core":"txz9"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=require("./js/events-api"),s=require("./js/pagination.js");function t(){fetch("https://app.ticketmaster.com/discovery/v2/events.json?apikey=GcvUr561HaBI30kU58PhKSa9RWqvwjKx").then(e=>console.log(e))}require("./js/renderingСardSet"),(0,e.getEventsByAttractions)("K8vZ9171oZf","1").then(e=>console.log(e)),t(),s.pagination.on("afterMove",s.onPaginationBarPush);
 },{"./sass/main.scss":"clu1","./js/events-api":"g3kF","./js/pagination.js":"o8lo","./js/renderingСardSet":"bpxh"}]},{},["Focm"], null)
-//# sourceMappingURL=/team-attraction-project/src.1060ba0b.js.map
+//# sourceMappingURL=/modal-01/src.a223023b.js.map
